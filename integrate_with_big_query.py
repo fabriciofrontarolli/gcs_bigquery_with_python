@@ -17,6 +17,7 @@ def fetchInvoiceDataFromBucket(fileName):
     return invoiceFile
 
 
+# TO BE CONTINUED
 def loadInvoiceToBigQuery(file):
     # The Dataset should already exists in the project
     dataset_name = "fabriciofrontarolli"
